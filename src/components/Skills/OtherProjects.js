@@ -3,12 +3,12 @@ import React from "react";
 const OtherProjects = () => {
   return (
     <div>
-      <div className=" mx-auto flex font-Inconsolata space-x-20">
-        <div className="w-44 text-xl uppercase text-end  font-bold text-[#112D4E]">
+      <div className=" mx-auto md:flex  font-Inconsolata md:space-x-20">
+        <div className="w-44 text-xl uppercase text-start md:text-end  font-bold text-[#112D4E]">
           Other Projects
         </div>
         <div>
-          <div className="flex-1">
+          <div className="flex-1 mt-5 md:mt-0">
             <div className="space-y-2">
               <h1 className="font-bold text-lg text-blue-600">Quiz Bet</h1>
               <p className="text-sm text-[#112D4E]">

@@ -10,7 +10,7 @@ const Home = () => {
     >
       <div className="space-y-14 w-9/12 mx-auto ">
         <motion.h1
-          className="font-Sacramento text-[#112D4E] text-fontColor text-8xl font-bold "
+          className="font-Sacramento text-[#112D4E] text-fontColor text-7xl md:text-8xl font-bold "
           initial={{ y: -250 }}
           animate={{ y: 10 }}
           transition={{
@@ -22,12 +22,12 @@ const Home = () => {
         >
           I'm Alif
         </motion.h1>
-        <p className="text-justify  font-Inconsolata text-2xl text-[#3F72AF]">
+        <p className="text-justify  font-Inconsolata md:text-2xl text-blue-600">
           A design minded front-end web developer. <br /> As well as I have an
           aim to make functional websites <br /> with beautiful interfaces and
           pixel-perfect <br /> user experiences.
         </p>
-        <p className="font-Inconsolata text-xl text-[#112D4E]">
+        <p className="font-Inconsolata md:text-xl text-[#112D4E]">
           Get in touch :{" "}
           <motion.button className="underline underline-offset-4 cursor-pointer hover:bg-fontColor hover:text-background px-2 py-1 text-[#112D4E]">
             alifsakib@gmail.com

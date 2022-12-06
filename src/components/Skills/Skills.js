@@ -8,12 +8,12 @@ const Skills = () => {
   return (
     <div className="space-y-20 lg:w-1/2 lg:mx-auto mx-14">
       <Background></Background>
-      <div className=" mx-auto flex font-Inconsolata space-x-20">
-        <div className="w-44 text-xl uppercase text-end  font-bold text-[#112D4E]">
+      <div className=" mx-auto md:flex  font-Inconsolata md:space-x-20">
+        <div className="w-44 text-xl uppercase text-start md:text-end  font-bold text-[#112D4E]">
           Skills
         </div>
-        <div className="flex-1">
-          <div className="flex justify-between">
+        <div className="flex-1 mt-5">
+          <div className="grid md:grid-cols-4 grid-cols-2 gap-10">
             <div>
               <div className="uppercase">
                 <h1 className="text-xl text-green font-bold text-blue-600">
