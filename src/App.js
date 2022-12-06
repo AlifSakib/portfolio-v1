@@ -5,7 +5,7 @@ import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
-    <div className="bg-[#100F0F]">
+    <div className="bg-[#F9F7F7]">
       <Header></Header>
       <Home></Home>
       <Skills></Skills>

@@ -9,7 +9,7 @@ const Skills = () => {
     <div className="space-y-20 lg:w-1/2 lg:mx-auto mx-14">
       <Background></Background>
       <div className=" mx-auto flex font-Inconsolata space-x-20">
-        <div className="w-44 text-xl uppercase text-end  font-bold text-[#ADE792]">
+        <div className="w-44 text-xl uppercase text-end  font-bold text-[#112D4E]">
           Skills
         </div>
         <div className="flex-1">
@@ -20,7 +20,7 @@ const Skills = () => {
                   Languages
                 </h1>
               </div>
-              <motion.div className="font-normal text-base text-[#D3EBCD]">
+              <motion.div className="font-normal text-base text-[#112D4E]">
                 <ul>
                   <li>JavaScript</li>
                   <li>Html</li>
@@ -34,7 +34,7 @@ const Skills = () => {
                   Frameworks
                 </h1>
               </div>
-              <div className="font-normal text-base text-[#D3EBCD]">
+              <div className="font-normal text-base text-[#112D4E]">
                 <ul>
                   <li>React</li>
                   <li>Node</li>
@@ -48,7 +48,7 @@ const Skills = () => {
                   Tools
                 </h1>
               </div>
-              <div className="font-normal text-base text-[#D3EBCD]">
+              <div className="font-normal text-base text-[#112D4E]">
                 <ul>
                   <li>Mongodb</li>
                   <li>Git & Github</li>
@@ -63,7 +63,7 @@ const Skills = () => {
                   Familier
                 </h1>
               </div>
-              <div className="font-normal text-base text-[#D3EBCD]">
+              <div className="font-normal text-base text-[#112D4E]">
                 <ul>
                   <li>JavaScript</li>
                   <li>Html</li>

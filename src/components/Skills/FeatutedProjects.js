@@ -12,7 +12,7 @@ const FeatutedProjects = () => {
   return (
     <div>
       <div className=" mx-auto flex font-Inconsolata space-x-20">
-        <div className="w-44 text-xl uppercase text-end  font-bold text-[#ADE792]">
+        <div className="w-44 text-xl uppercase text-end  font-bold text-[#112D4E]">
           Featured Projects
         </div>
         <div className="flex-1 space-y-32">
@@ -26,8 +26,8 @@ const FeatutedProjects = () => {
               </a>
             </motion.div>
             <div className="w-44">
-              <h1 className="font-bold text-lg text-[#ADE792]">LozzeBy</h1>
-              <p className="text-sm text-[#D3EBCD]">
+              <h1 className="font-bold text-lg text-[#112D4E]">LozzeBy</h1>
+              <p className="text-sm text-[#112D4E]">
                 An used product resale website , Where buyer call buy used
                 product posted by sellers , There is an option to create account
                 as a seller and also have seller, buyer and admin dashboard.
@@ -44,10 +44,10 @@ const FeatutedProjects = () => {
               </a>
             </div>
             <div className="w-44">
-              <h1 className="font-bold text-lg text-[#ADE792]">
+              <h1 className="font-bold text-lg text-[#112D4E]">
                 Lunox Learning
               </h1>
-              <p className="text-sm text-[#D3EBCD]">
+              <p className="text-sm text-[#112D4E]">
                 I am a Computer Science Student. I completed my graduation from
                 Bangladesh University of Business & Technology. Since my
                 childhood i was interested and excited about technology. I enjoy
@@ -65,10 +65,10 @@ const FeatutedProjects = () => {
               </a>
             </div>
             <div className="w-44">
-              <h1 className="font-bold text-lg text-[#ADE792]">
+              <h1 className="font-bold text-lg text-[#112D4E]">
                 Lunox Learning
               </h1>
-              <p className="text-sm text-[#D3EBCD]">
+              <p className="text-sm text-[#112D4E]">
                 I am a Computer Science Student. I completed my graduation from
                 Bangladesh University of Business & Technology. Since my
                 childhood i was interested and excited about technology. I enjoy
