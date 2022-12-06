@@ -27,7 +27,7 @@ const Home = () => {
           aim to make functional websites <br /> with beautiful interfaces and
           pixel-perfect <br /> user experiences.
         </p>
-        <p className="font-Inconsolata md:text-xl text-[#112D4E]">
+        <p className="font-Inconsolata text-sm md:text-xl text-[#112D4E]">
           Get in touch :{" "}
           <motion.button className="underline underline-offset-4 cursor-pointer hover:bg-fontColor hover:text-background px-2 py-1 text-[#112D4E]">
             alifsakib@gmail.com

@@ -6,13 +6,13 @@ import OtherProjects from "./OtherProjects";
 
 const Skills = () => {
   return (
-    <div className="space-y-20 lg:w-1/2 lg:mx-auto mx-14">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 space-y-20">
       <Background></Background>
       <div className=" mx-auto md:flex  font-Inconsolata md:space-x-20">
         <div className="w-44 text-xl uppercase text-start md:text-end  font-bold text-[#112D4E]">
           Skills
         </div>
-        <div className="flex-1 mt-5">
+        <div className="flex-1 mt-5 md:mt-0">
           <div className="grid md:grid-cols-4 grid-cols-2 gap-10">
             <div>
               <div className="uppercase">
