@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { Bounce } from "react-reveal";
 import Background from "./Background";
 import FeatutedProjects from "./FeatutedProjects";
 import OtherProjects from "./OtherProjects";
@@ -9,9 +10,12 @@ const Skills = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 space-y-20">
       <Background></Background>
       <div className=" mx-auto md:flex  font-Inconsolata md:space-x-20">
-        <div className="w-44 text-xl uppercase text-start md:text-end  font-bold text-[#112D4E]">
-          Skills
-        </div>
+        <Bounce left>
+          <div className="w-44 text-xl uppercase text-start md:text-end  font-bold text-[#112D4E]">
+            Skills
+          </div>
+        </Bounce>
+
         <div className="flex-1 mt-5 md:mt-0">
           <div className="grid md:grid-cols-4 grid-cols-2 gap-10">
             <div>

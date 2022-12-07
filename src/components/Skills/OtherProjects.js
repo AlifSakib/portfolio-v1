@@ -1,12 +1,16 @@
 import React from "react";
+import Bounce from "react-reveal/Bounce";
 
 const OtherProjects = () => {
   return (
     <div>
       <div className=" mx-auto md:flex  font-Inconsolata md:space-x-20">
-        <div className="w-44 text-xl uppercase text-start md:text-end  font-bold text-[#112D4E]">
-          Other Projects
-        </div>
+        <Bounce left>
+          <div className="w-44 text-xl uppercase text-start md:text-end  font-bold text-[#112D4E]">
+            Other Projects
+          </div>
+        </Bounce>
+
         <div>
           <div className="flex-1 mt-5 md:mt-0">
             <div className="space-y-2">

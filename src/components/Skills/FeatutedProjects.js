@@ -1,25 +1,27 @@
 import { motion } from "framer-motion";
 import React from "react";
+import Bounce from "react-reveal/Bounce";
 import learningLaptop from "../../assets/l-learning-l.png";
 import sweetLaptop from "../../assets/sweet-l.png";
-
 const FeatutedProjects = () => {
   return (
     <div>
       <div className=" mx-auto lg:flex font-Inconsolata md:space-x-20 w-full">
-        <div className="w-44 text-xl uppercase text-end  font-bold text-[#112D4E]">
-          Featured Projects
-        </div>
+        <Bounce left>
+          <div className="w-44 text-xl uppercase text-end  font-bold text-[#112D4E]">
+            Featured Projects
+          </div>
+        </Bounce>
         <div className="flex-1 space-y-32 lg:mt-0 mt-5">
           <div className="flex space-x-6 flex-col md:flex-row">
-            <motion.div className="relative">
+            <div className="relative">
               <a href="https://lozzeby.web.app/">
                 <img src={sweetLaptop} alt="" />
                 {/* <div className="absolute right-10 top-8 md:block hidden">
                   <img className="lg:h-64 h-52" src={sweetMobile} alt="" />
                 </div> */}
               </a>
-            </motion.div>
+            </div>
             <div className="md:w-44 mt-5 md:mt-0 lg:w-1/3">
               <h1 className="font-bold text-lg text-[#112D4E]">
                 Sweet Manicures
@@ -40,7 +42,7 @@ const FeatutedProjects = () => {
                 </div> */}
               </a>
             </motion.div>
-            <div className="md:w-44 mt-5 md:mt-0 lg:w-1/3">
+            <div className="md:w-44 mt-5 md:mt-0 lg:w-1/3 ">
               <h1 className="font-bold text-lg text-[#112D4E]">
                 Lunox Learning
               </h1>
