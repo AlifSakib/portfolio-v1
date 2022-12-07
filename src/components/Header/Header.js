@@ -11,12 +11,12 @@ const Header = () => {
         <Toggle></Toggle>
         <Night></Night>
       </div>
-      <div className="font-Inconsolata font-bold">
+      {/* <div className="font-Inconsolata font-bold">
         <ul className="flex space-x-10 text-lg">
           <li>Skills</li>
           <li>projects</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

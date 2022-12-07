@@ -6,7 +6,7 @@ const Background = () => {
     <div>
       <div className=" mx-auto  md:flex font-Inconsolata md:space-x-20">
         <Bounce left>
-          <div className="w-44 text-xl uppercase text-end  font-bold text-[#112D4E]">
+          <div className="w-44 text-xl uppercase text-start md:text-end  font-bold text-[#112D4E]">
             Background
           </div>
         </Bounce>
