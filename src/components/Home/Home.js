@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import Down from "../Items/Down";
 const Home = () => {
   return (
     <motion.div
@@ -32,6 +33,16 @@ const Home = () => {
           <motion.button className="underline underline-offset-4 cursor-pointer hover:bg-fontColor hover:text-background px-2 py-1 text-[#112D4E]">
             alifsakib@gmail.com
           </motion.button>
+        </p>
+        <p className="font-Inconsolata text-sm md:text-xl text-[#112D4E] font-bold">
+          <a
+            href="https://drive.google.com/file/d/1PdNfguJd3DqqkdeLhEdZ8JfunltuhPgf/view?usp=sharing"
+            target="_blank"
+            className="flex items-center cursor-pointer hover:bg-fontColor hover:text-background  py-1 text-[#112D4E] hover:text-blue-600"
+            rel="noreferrer"
+          >
+            <div>My Resume</div> <Down></Down>
+          </a>
         </p>
       </div>
     </motion.div>
