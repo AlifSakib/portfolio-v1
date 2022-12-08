@@ -24,9 +24,12 @@ const Home = () => {
           I'm Alif
         </motion.h1>
         <p className="text-justify  font-Inconsolata md:text-2xl text-blue-600">
-          A design minded front-end web developer. <br /> As well as I have an
+          {/* A design minded front-end web developer. <br /> As well as I have an
           aim to make functional websites <br /> with beautiful interfaces and
-          pixel-perfect <br /> user experiences.
+          pixel-perfect <br /> user experiences. */}
+          A React Developer, <br /> I have knowledge of building functional{" "}
+          <br />
+          websites with beautiful interfaces and experiences.
         </p>
         <p className="font-Inconsolata text-sm md:text-xl text-[#112D4E]">
           Get in touch :{" "}
