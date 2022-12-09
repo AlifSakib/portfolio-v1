@@ -1,7 +1,37 @@
+import emailjs from "@emailjs/browser";
 import { Dialog, Transition } from "@headlessui/react";
-import React, { Fragment } from "react";
+import React, { Fragment, useRef } from "react";
+import { toast } from "react-hot-toast";
 
 const ContactModal = ({ isOpen, closeModal }) => {
+  const form = useRef();
+
+  const handleContact = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_a9cep3c",
+        "template_jc5055n",
+        form.current,
+        "lC3XKimEZVEwpNEII"
+      )
+      .then(
+        (result) => {
+          toast("Email Sent", {
+            icon: "👏",
+            style: {
+              borderRadius: "10px",
+              background: "#333",
+              color: "#fff",
+            },
+          });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div>
       <>
@@ -38,15 +68,7 @@ const ContactModal = ({ isOpen, closeModal }) => {
                       Contact Me
                     </Dialog.Title>
 
-                    <form
-                      action="https://formsubmit.co/alifsakib@gmail.com"
-                      method="POST"
-                    >
-                      <input
-                        type="hidden"
-                        name="_captcha"
-                        value="false"
-                      ></input>
+                    <form ref={form} onSubmit={handleContact}>
                       <div className="mt-2 font-Inconsolata">
                         <div class="relative flex items-center mt-8">
                           <span class="absolute">
@@ -67,8 +89,8 @@ const ContactModal = ({ isOpen, closeModal }) => {
                           </span>
 
                           <input
+                            name="user_name"
                             type="text"
-                            name="name"
                             class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder="Name"
                           />
@@ -92,15 +114,15 @@ const ContactModal = ({ isOpen, closeModal }) => {
                           </span>
 
                           <input
+                            name="user_email"
                             type="email"
-                            name="email"
                             class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder="Email address"
                           />
                         </div>
                         <div class="w-full mt-4">
                           <textarea
-                            name="Message"
+                            name="message"
                             class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder="Message"
                           ></textarea>
