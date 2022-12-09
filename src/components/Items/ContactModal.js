@@ -38,72 +38,84 @@ const ContactModal = ({ isOpen, closeModal }) => {
                       Contact Me
                     </Dialog.Title>
 
-                    <div className="mt-2 font-Inconsolata">
-                      <div class="relative flex items-center mt-8">
-                        <span class="absolute">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                    <form
+                      action="https://formsubmit.co/alifsakib@gmail.com"
+                      method="POST"
+                    >
+                      <input
+                        type="hidden"
+                        name="_captcha"
+                        value="false"
+                      ></input>
+                      <div className="mt-2 font-Inconsolata">
+                        <div class="relative flex items-center mt-8">
+                          <span class="absolute">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                              />
+                            </svg>
+                          </span>
+
+                          <input
+                            type="text"
+                            name="name"
+                            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                            placeholder="Name"
+                          />
+                        </div>
+                        <div class="relative flex items-center mt-4">
+                          <span class="absolute">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                              />
+                            </svg>
+                          </span>
+
+                          <input
+                            type="email"
+                            name="email"
+                            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                            placeholder="Email address"
+                          />
+                        </div>
+                        <div class="w-full mt-4">
+                          <textarea
+                            name="Message"
+                            class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                            placeholder="Message"
+                          ></textarea>
+                        </div>
+                        <div className="mt-4">
+                          <button
+                            type="submit"
+                            className="font-Inconsolata inline-flex justify-center rounded-md border border-transparent bg-purple-100 px-4 py-2 text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500 focus-visible:ring-offset-2 w-full"
+                            onClick={closeModal}
                           >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
-                            />
-                          </svg>
-                        </span>
-
-                        <input
-                          type="text"
-                          class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                          placeholder="Name"
-                        />
+                            Send
+                          </button>
+                        </div>
                       </div>
-                      <div class="relative flex items-center mt-4">
-                        <span class="absolute">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                            />
-                          </svg>
-                        </span>
-
-                        <input
-                          type="email"
-                          class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                          placeholder="Email address"
-                        />
-                      </div>
-                      <div class="w-full mt-4">
-                        <textarea
-                          class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                          placeholder="Message"
-                        ></textarea>
-                      </div>
-                    </div>
-
-                    <div className="mt-4">
-                      <button
-                        type="button"
-                        className="font-Inconsolata inline-flex justify-center rounded-md border border-transparent bg-purple-100 px-4 py-2 text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500 focus-visible:ring-offset-2 w-full"
-                        onClick={closeModal}
-                      >
-                        Send
-                      </button>
-                    </div>
+                    </form>
                   </Dialog.Panel>
                 </Transition.Child>
               </div>

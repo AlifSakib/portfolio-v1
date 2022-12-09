@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import ContactMe from "../Items/ContactMe";
 import ContactModal from "../Items/ContactModal";
+
 import Down from "../Items/Down";
 const Home = () => {
   let [isOpen, setIsOpen] = useState(false);
