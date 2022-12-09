@@ -20,7 +20,7 @@ const Skills = () => {
           <div className="grid md:grid-cols-4 grid-cols-2 gap-10">
             <div>
               <div className="uppercase">
-                <h1 className="text-xl text-green font-bold text-blue-600">
+                <h1 className="text-xl text-green font-bold text-purple-600">
                   Languages
                 </h1>
               </div>
@@ -34,7 +34,7 @@ const Skills = () => {
             </div>
             <div>
               <div className="uppercase">
-                <h1 className="text-xl text-green font-bold text-blue-600">
+                <h1 className="text-xl text-green font-bold text-purple-600">
                   Frameworks
                 </h1>
               </div>
@@ -48,7 +48,7 @@ const Skills = () => {
             </div>
             <div>
               <div className="uppercase">
-                <h1 className="text-xl text-green font-bold text-blue-600">
+                <h1 className="text-xl text-green font-bold text-purple-600">
                   Tools
                 </h1>
               </div>
@@ -63,7 +63,7 @@ const Skills = () => {
             </div>
             <div>
               <div className="uppercase">
-                <h1 className="text-xl text-green font-bold text-blue-600">
+                <h1 className="text-xl text-green font-bold text-purple-600">
                   Familier
                 </h1>
               </div>

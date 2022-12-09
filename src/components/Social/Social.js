@@ -9,7 +9,7 @@ const Social = () => {
           <FaLinkedin></FaLinkedin>
         </a>
       </div>
-      <div className=" -rotate-90 text-2xl text-slate-600">
+      <div className=" -rotate-90 text-2xl text-green-500">
         <a href="https://github.com/AlifSakib">
           <FaGithub></FaGithub>
         </a>
@@ -19,6 +19,7 @@ const Social = () => {
           <FaFacebook></FaFacebook>
         </a>
       </div>
+
       <div className="-rotate-90 text-2xl  text-indigo-500">
         <a href="AlifSakib#6941" title="AlifSakib#6941">
           <FaDiscord></FaDiscord>

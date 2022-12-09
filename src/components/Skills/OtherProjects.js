@@ -14,7 +14,9 @@ const OtherProjects = () => {
         <div>
           <div className="flex-1 mt-5 md:mt-0">
             <div className="space-y-2">
-              <h1 className="font-bold text-lg text-blue-600">Quiz Bet</h1>
+              <h1 className="font-extrabold text-lg text-purple-600">
+                Quiz Bet
+              </h1>
               <p className="text-sm text-[#112D4E]">
                 An simple online quiz website where user can select topic and
                 start quiz and for right answer a tost will show and give him
@@ -41,7 +43,9 @@ const OtherProjects = () => {
           </div>
           <div className="flex-1 mt-6">
             <div className="space-y-2">
-              <h1 className="font-bold text-lg text-blue-600">Learning Hub</h1>
+              <h1 className="font-bold text-lg text-purple-600">
+                Learning Hub
+              </h1>
               <p className="text-sm text-[#112D4E]">
                 An Online learning platform build with bootstrap
               </p>
@@ -60,7 +64,7 @@ const OtherProjects = () => {
           </div>
           <div className="flex-1 mt-6">
             <div className="space-y-2">
-              <h1 className="font-bold text-lg text-blue-600">
+              <h1 className="font-bold text-lg text-purple-600">
                 Beyond Horizon
               </h1>
               <p className="text-sm text-[#112D4E]">
@@ -88,7 +92,9 @@ const OtherProjects = () => {
           </div>
           <div className="flex-1 mt-6">
             <div className="space-y-2">
-              <h1 className="font-bold text-lg text-blue-600">Hank's Garage</h1>
+              <h1 className="font-bold text-lg text-purple-600">
+                Hank's Garage
+              </h1>
               <p className="text-sm text-[#112D4E]">
                 An online car repair platform build with react , tailwind, node
                 , express , mongodb . Implemented pagination , User
