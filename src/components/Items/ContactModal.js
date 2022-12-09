@@ -70,8 +70,8 @@ const ContactModal = ({ isOpen, closeModal }) => {
 
                     <form ref={form} onSubmit={handleContact}>
                       <div className="mt-2 font-Inconsolata">
-                        <div class="relative flex items-center mt-8">
-                          <span class="absolute">
+                        <div className="relative flex items-center mt-8">
+                          <span className="absolute">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
@@ -91,15 +91,15 @@ const ContactModal = ({ isOpen, closeModal }) => {
                           <input
                             name="user_name"
                             type="text"
-                            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder="Name"
                           />
                         </div>
-                        <div class="relative flex items-center mt-4">
-                          <span class="absolute">
+                        <div className="relative flex items-center mt-4">
+                          <span className="absolute">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                              className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
                               fill="none"
                               viewBox="0 0 24 24"
                               stroke="currentColor"
@@ -116,14 +116,14 @@ const ContactModal = ({ isOpen, closeModal }) => {
                           <input
                             name="user_email"
                             type="email"
-                            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-purple-400 dark:focus:border-purple-300 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder="Email address"
                           />
                         </div>
-                        <div class="w-full mt-4">
+                        <div className="w-full mt-4">
                           <textarea
                             name="message"
-                            class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-purple-400 dark:focus:border-purple-400 focus:ring-purple-400 focus:outline-none focus:ring focus:ring-opacity-40"
                             placeholder="Message"
                           ></textarea>
                         </div>
