@@ -1,8 +1,23 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useState } from "react";
 import ContactMe from "../Items/ContactMe";
+import ContactModal from "../Items/ContactModal";
 import Down from "../Items/Down";
 const Home = () => {
+  let [isOpen, setIsOpen] = useState(false);
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  const handleContact = () => {
+    openModal();
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -35,11 +50,21 @@ const Home = () => {
         </p>
 
         <div className="font-Inconsolata text-sm md:text-xl text-[#112D4E] flex items-center">
-          <p>Get in touch :</p>
+          <p>Contact Me :</p>
           {/* <motion.button className="underline underline-offset-4 cursor-pointer hover:bg-fontColor hover:text-background px-2 py-1 text-[#112D4E]">
             alifsakib@gmail.com
           </motion.button> */}
-          <ContactMe></ContactMe>
+          <ContactMe
+            openModal={openModal}
+            closeModal={closeModal}
+            handleContact={handleContact}
+          ></ContactMe>
+          <ContactModal
+            openModal={openModal}
+            closeModal={closeModal}
+            setIsOpen={setIsOpen}
+            isOpen={isOpen}
+          ></ContactModal>
         </div>
         <div className="font-Inconsolata text-sm md:text-xl text-[#112D4E] font-bold">
           <a
