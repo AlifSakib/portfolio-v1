@@ -2,7 +2,6 @@ import React from "react";
 import Day from "../Items/Day";
 import Night from "../Items/Night";
 import Toggle from "../Items/Toggle";
-
 const Header = () => {
   return (
     <div className="w-9/12 mx-auto py-10 flex justify-between">

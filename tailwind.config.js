@@ -7,6 +7,7 @@ module.exports = {
         Inconsolata: "'Inconsolata', monospace",
         Poppins: "'Poppins', sans-serif",
         Sacramento: "'Sacramento', cursive",
+        Lexend: "'Lexend', sans-serif",
       },
     },
   },

@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import GoTop from "./components/Items/GoTop";
@@ -17,6 +18,7 @@ function App() {
       <div className="fixed bottom-10 right-8 ">
         <GoTop></GoTop>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

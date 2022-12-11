@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { FaGithubAlt } from "react-icons/fa";
 import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
 import learningLaptop from "../../assets/l-learning-l.png";
 import lozzeByLaptop from "../../assets/laptop-view-lozzeBy.png";
 import sweetLaptop from "../../assets/sweet-l.png";
+import Redirect from "../Items/Redirect";
+import ViewDetails from "../Items/ViewDetails";
 const FeatutedProjects = () => {
   return (
     <div>
@@ -23,13 +26,37 @@ const FeatutedProjects = () => {
                 </a>
               </div>
               <div className="md:w-44 mt-5 md:mt-0 lg:w-1/3">
-                <h1 className="font-bold text-lg text-[#112D4E]">LozzeBy</h1>
-                <p className="text-sm text-[#112D4E]">
-                  ● Implemented user authentication using firebase <br /> ●
-                  Secured dashboard for Buyer, Seller & Admin using jwt
-                  authorization. <br /> ● Handled loading states, and used
-                  custom hooks and stripe payment gateway.
-                </p>
+                <div className="flex mt-2 items-center">
+                  <h1 className="font-bold text-lg text-[#112D4E]">LozzeBy</h1>
+                  <a
+                    href="https://github.com/AlifSakib/lozzeby-client-side"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaGithubAlt className="w-5 h-5  ml-2 text-[#112D4E] "></FaGithubAlt>
+                  </a>
+                  <a
+                    href="https://lozzeby.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Redirect></Redirect>
+                  </a>
+                </div>
+                <div className="text-sm text-[#112D4E]">
+                  <p>● Implemented user authentication using firebase</p>
+                  <p>
+                    ● Secured dashboard for Buyer, Seller & Admin using jwt
+                    authorization.
+                  </p>
+                  <p className="md:hidden lg:block">
+                    ● Handled loading states, and used custom hooks and stripe
+                    payment gateway.
+                  </p>
+                  <div className="mt-2 flex flex-col">
+                    <ViewDetails></ViewDetails>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
@@ -41,15 +68,38 @@ const FeatutedProjects = () => {
                 </a>
               </motion.div>
               <div className="md:w-44 mt-5 md:mt-0 lg:w-1/3 ">
-                <h1 className="font-bold text-lg text-[#112D4E]">
-                  Lunox Learning
-                </h1>
-                <p className="text-sm text-[#112D4E] ">
-                  ● Handled premium access using a private route. <br /> ●
-                  Implemented dark mode and maintained dynamic data loading.{" "}
-                  <br />● Handled form data with react-hook-form, active link
-                  added for active routes.
-                </p>
+                <div className="flex my-1 items-center">
+                  <h1 className="font-bold text-lg text-[#112D4E]">
+                    Lunox Learning
+                  </h1>
+                  <a
+                    href="https://github.com/AlifSakib/lozzeby-client-side"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaGithubAlt className="w-5 h-5  ml-2 text-[#112D4E] "></FaGithubAlt>
+                  </a>
+                  <a
+                    href="https://lozzeby.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Redirect></Redirect>
+                  </a>
+                </div>
+                <div className="text-sm text-[#112D4E]">
+                  <p>● Handled premium access using a private route.</p>
+                  <p>
+                    ● Implemented dark mode and maintained dynamic data loading.
+                  </p>
+                  <p className="md:hidden lg:block">
+                    ● Handled form data with react-hook-form, active link added
+                    for active routes.
+                  </p>
+                  <div className="mt-2 flex flex-col">
+                    <ViewDetails></ViewDetails>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
@@ -61,14 +111,39 @@ const FeatutedProjects = () => {
                 </a>
               </motion.div>
               <div className="md:w-44 mt-5 md:mt-0 lg:w-1/3">
-                <h1 className="font-bold text-lg text-[#112D4E]">
-                  Sweet Manicures
-                </h1>
-                <p className="text-sm text-[#112D4E]">
-                  ● MongoDB CRUD Operation and Operators. <br /> ● Optimized
-                  images and used loaders for a better user experience. <br /> ●
-                  Sorted the reviews in descending order by review post time.
-                </p>
+                <div className="flex my-1 items-center">
+                  <h1 className="font-bold text-lg text-[#112D4E]">
+                    Sweet Manicures
+                  </h1>
+                  <a
+                    href="https://github.com/AlifSakib/lozzeby-client-side"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaGithubAlt className="w-5 h-5  ml-2 text-[#112D4E] "></FaGithubAlt>
+                  </a>
+                  <a
+                    href="https://lozzeby.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Redirect></Redirect>
+                  </a>
+                </div>
+                <div className="text-sm text-[#112D4E]">
+                  <p>● MongoDB CRUD Operation and Operators. </p>
+                  <p>
+                    ● Optimized images and used loaders for a better user
+                    experience.
+                  </p>
+                  <p className="md:hidden lg:block">
+                    ● Sorted the reviews in descending order by review post
+                    time.
+                  </p>
+                  <div className="mt-2 flex flex-col">
+                    <ViewDetails></ViewDetails>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
