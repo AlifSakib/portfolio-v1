@@ -14,7 +14,7 @@ const OtherProjects = () => {
         <div>
           <div className="flex-1 mt-5 md:mt-0">
             <div className="space-y-2">
-              <h1 className="font-extrabold text-lg text-purple-600">
+              <h1 className="font-extrabold text-lg text-indigo-600">
                 Quiz Bet
               </h1>
               <p className="text-sm text-[#112D4E]">
@@ -43,7 +43,7 @@ const OtherProjects = () => {
           </div>
           <div className="flex-1 mt-6">
             <div className="space-y-2">
-              <h1 className="font-bold text-lg text-purple-600">
+              <h1 className="font-bold text-lg text-indigo-600">
                 Learning Hub
               </h1>
               <p className="text-sm text-[#112D4E]">
@@ -64,7 +64,7 @@ const OtherProjects = () => {
           </div>
           <div className="flex-1 mt-6">
             <div className="space-y-2">
-              <h1 className="font-bold text-lg text-purple-600">
+              <h1 className="font-bold text-lg text-indigo-600">
                 Beyond Horizon
               </h1>
               <p className="text-sm text-[#112D4E]">
@@ -92,7 +92,7 @@ const OtherProjects = () => {
           </div>
           <div className="flex-1 mt-6">
             <div className="space-y-2">
-              <h1 className="font-bold text-lg text-purple-600">
+              <h1 className="font-bold text-lg text-indigo-600">
                 Hank's Garage
               </h1>
               <p className="text-sm text-[#112D4E]">

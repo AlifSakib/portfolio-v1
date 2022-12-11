@@ -32,7 +32,7 @@ const GoTop = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-8 h-8 border-2 rounded-full border-purple-600 py-1 animate-bounce"
+              className="w-8 h-8 border-2 rounded-full border-indigo-600 py-1 animate-bounce"
             >
               <path
                 strokeLinecap="round"

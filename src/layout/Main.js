@@ -8,7 +8,7 @@ import Social from "../components/Social/Social";
 
 const Main = () => {
   return (
-    <div className="bg-[#F9F7F7] relative">
+    <div className="bg-[#F9F7F7] relative selection:bg-red-500 selection:text-white">
       <Header></Header>
       <Home></Home>
       <Skills></Skills>

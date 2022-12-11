@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Day from "../Items/Day";
 import Night from "../Items/Night";
 import Toggle from "../Items/Toggle";
@@ -10,12 +11,11 @@ const Header = () => {
         <Toggle></Toggle>
         <Night></Night>
       </div>
-      {/* <div className="font-Inconsolata font-bold">
+      <div className="font-Inconsolata font-bold">
         <ul className="flex space-x-10 text-lg">
-          <li>Skills</li>
-          <li>projects</li>
+          <Link to="/blogs">Blog</Link>
         </ul>
-      </div> */}
+      </div>
     </div>
   );
 };

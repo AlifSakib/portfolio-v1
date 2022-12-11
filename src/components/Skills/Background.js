@@ -13,12 +13,22 @@ const Background = () => {
 
         <div className="flex-1 mt-5 md:mt-0">
           <div>
-            <p className="text-justify text-[#112D4E]">
-              I am a Computer Science Student. I completed my graduation from
-              Bangladesh University of Business & Technology. Since my childhood
-              i was interested and excited about technology. I enjoy exploring
-              new technology.
-            </p>
+            <div className="selection:bg-red-500 selection:text-white text-justify text-[#112D4E] space-y-6">
+              <p>
+                I am Md. Sakib Hossain Alif. I recently graduated from the
+                Bangladesh University of Business and Technology.
+              </p>
+              <p>
+                As a front-end web developer, My goal is to build products that
+                are scalable, efficient, neat, and clean and also provide the
+                best user experience.
+              </p>
+              <p>
+                I spend most of the time in front of my computer screen. When
+                I'm not in front of my computer screen I probably enjoy playing
+                online games, hanging out with friends, or listening to songs.
+              </p>
+            </div>
           </div>
         </div>
       </div>
